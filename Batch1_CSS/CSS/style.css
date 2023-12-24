@@ -57,3 +57,25 @@ a[title="google"]{
     color: red;
 }
 
+/* pseudo */
+a:link{
+    color: red;
+    letter-spacing: 5px;
+}
+a:hover{
+    color: yellow;
+}
+a:active{
+    color: green;
+}
+a:visited{
+    color: brown;
+}
+
+
+/* target */
+:target{
+    color: red; 
+    border: 1px solid black;
+    letter-spacing: 10px;
+}
