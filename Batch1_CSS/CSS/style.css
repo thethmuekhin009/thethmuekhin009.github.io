@@ -147,3 +147,83 @@ a:visited{
     width: 40%;
     float: right;
 }
+
+/* grid */
+.gridone div,.gridtwo div,.gridthree div,.gridfour div{
+    padding: 20px 0px;
+    color: white;
+    text-align: center;
+}
+
+.gridone{
+    display: grid;
+    grid-template-columns:auto auto auto;
+}
+
+.gridtwo{
+    display: grid;
+   grid-template-columns: auto auto auto;
+   grid-row-gap: 20px;
+   grid-column-gap: 30px;
+   /* grid-gap: 20px; */
+}
+.gridthree{
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+}
+.rowadd{
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+.gridfour{
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+}
+.columnadd{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+/* position */
+.relative_parent{
+    border: 2px solid red;
+    width: 1000px;
+    height: 600px;
+}
+.position_relative{
+    border: 2px solid green;
+    width: 500px;
+    height: 300px;
+    position: relative;
+    top: 100px;
+    left:100px ;
+    /* right:100px; */
+}
+
+.absolute_parent{
+    border: 2px solid rgb(46, 5, 5);
+    width: 1000px;
+    height: 600px;
+    position: relative;
+}
+.positon_absolute{
+    border: 2px solid rgb(226, 205, 12);
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+
+}
+.fixed{
+    position: fixed;
+    top: 50px;
+    right: 50px;
+}
+/* font */
+.onlinefont{
+    font-family: 'Rubik Maps', system-ui;
+    font-size: 30px;
+}
