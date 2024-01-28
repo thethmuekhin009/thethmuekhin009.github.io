@@ -227,3 +227,12 @@ a:visited{
     font-family: 'Rubik Maps', system-ui;
     font-size: 30px;
 }
+
+@font-face{
+    font-family:rubik ;
+    src: url(../Rubik_Glitch/RubikGlitch-Regular.ttf);
+}
+
+.offlinefont{
+    font-family: rubik;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accordion</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <h1 class="text-center text-danger my-5">
+        Accordion Lessons
+    </h1>
+    
+
+    <div class="accordion" id="AccordionParent">
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button" data-bs-target="#Accordionone" data-bs-toggle="collapse">One</button>
+            </h2>
+            <div id="Accordionone" class="collapse accordion-collapse show" data-bs-parent="#AccordionParent">
+                <div class="accordion-body">
+                    <p> One Lorem ipsum dolor sit amet consectetur adipisicing elit. At placeat nesciunt, incidunt animi beatae adipisci, eum eligendi sit quas consequuntur inventore non rerum, cupiditate deleniti. Illum enim incidunt vitae ea.</p>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="accordion-item">
+            <div class="accordion-header">
+                <a href="#Accordiontwo" data-bs-toggle="collapse" class="accordion-button btn">Two</a>
+            </div>
+            <div class="collapse accordion-collapse" id="Accordiontwo" data-bs-parent="#AccordionParent">
+                <div class="accordion-body">
+                    <p> Two Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore maxime facere quia, aliquid, consequuntur inventore velit molestias, quidem fugiat fuga qui consequatur quam. Esse hic iusto quidem praesentium itaque reiciendis.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <div class="accordion-header">
+                <a href="#Accordionthree" data-bs-toggle="collapse" class="accordion-button btn">Three</a>
+            </div>
+            <div class="collapse accordion-collapse" id="Accordionthree" data-bs-parent="#AccordionParent">
+                <div class="accordion-body">
+                    <p> Two Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore maxime facere quia, aliquid, consequuntur inventore velit molestias, quidem fugiat fuga qui consequatur quam. Esse hic iusto quidem praesentium itaque reiciendis.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

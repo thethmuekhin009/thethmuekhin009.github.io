@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+</head>
+<body class="bg-success">
+    <h1 class="text-center text-dark my-5">Student Register</h1>
+
+    <div class="container">
+        <div class="row">
+            <div class="offset-md-3 col-12 col-md-6">
+                <form action="" method="post">
+                    <div class="mb-3">
+                        <label for="photo" class="form-label">Profile</label>
+                        <input type="file" name="" id="photo" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" id="name" placeholder="Mg Mg" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" name="" id="email" placeholder="example@gmail.com" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label for="phone" class="form-label">Phone</label>
+                        <input type="number" name="" id="phone" placeholder="09*********" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label for="dob" class="form-label">DOB</label>
+                        <input type="date" name="" id="dob" class="form-control">
+                    </div>
+                    <label for="" class="d-block">Gender</label>
+                    <div class="form-check-inline">
+                        <input type="radio" name="Gender" id="male" class="form-check-input">
+                        <label for="male" class="form-check-label">Male</label>
+                    </div>
+                    <div class="form-check-inline">
+                        <input type="radio" name="Gender" id="female" class="form-check-input">
+                        <label for="female" class="form-check-label">Female</label>
+                    </div>
+
+                    <label for="" class="d-block">Hobbies</label>
+                    <div class="form-check">
+                        <input type="checkbox" name="reading" id="reading" class="form-check-input">
+                        <label for="reading" class="form-check-label">Reading</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="checkbox" name="swimming" id="swimming" class="form-check-input">
+                        <label for="swimming" class="form-check-label">Swimming</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="checkbox" name="singing" id="singing" class="form-check-input">
+                        <label for="singing" class="form-check-label">Singing</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="checkbox" name="dancing" id="dancing" class="form-check-input">
+                        <label for="dancing" class="form-check-label">Dancing</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="checkbox" name="travelling" id="travelling" class="form-check-input">
+                        <label for="travelling" class="form-check-label">Travelling</label>
+                    </div>
+
+                    <label for="" class="d-block mt-3 form-label">Education</label>
+                    <select name="" id="" class="form-select form-select-lg">
+                        <option value="1">First Year</option>
+                        <option value="2">Second Year</option>
+                        <option value="3">Third Year</option>
+                        <option value="4">Fourth Year</option>
+                        <option value="5">Final Year</option>
+                        <option value="6">Graduated </option>
+                    </select>
+
+                    <label for="address" class="form-label mt-3">Address</label>
+                    <textarea name="" id="address" class="form-control"></textarea>
+
+                    <button class="btn btn-dark my-5 float-end">Save</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
